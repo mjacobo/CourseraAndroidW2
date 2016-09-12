@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CourseraAndroidW2</string>
+    <string name="field_name_hint">Nombre completo:</string>
+    <string name="field_telephone_hint">Teléfono:</string>
+    <string name="field_Birth_Date_hint">Fecha Nacimiento: </string>
+    <string name="field_Email_hint">Email:</string>
+    <string name="field_Description_hint">Descripción Contacto:</string>
+    <string name="button_BD_text">Set date</string>
+    <string name="button_text">Siguiente</string>
+    <string name="button_DC">Editar Datos</string>
+    <string name="view_Confirm_Data">Confirmar Datos</string>
+</resources>

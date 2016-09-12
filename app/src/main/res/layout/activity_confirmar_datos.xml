@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mj.courseraandroidw2.ConfirmarDatos">
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/view_Confirm_Data"
+            android:textSize="@dimen/title_size"
+            />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/name_size"
+            android:layout_below="@id/tvTitle"
+            />
+
+        <TextView
+            android:id="@+id/tvDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/field_Birth_Date_hint"
+            android:textSize="@dimen/field_size"
+            android:textStyle="bold"
+            android:layout_below="@id/tvName"
+            />
+
+        <TextView
+            android:id="@+id/tvDDBD2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/field_size"
+            android:layout_alignBottom="@id/tvDB"
+            android:layout_toRightOf="@id/tvDB"
+            android:layout_toEndOf="@id/tvDB"
+            />
+
+    <TextView
+        android:id="@+id/tvTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/field_telephone_hint"
+        android:textSize="@dimen/field_size"
+        android:textStyle="bold"
+        android:layout_below="@id/tvDB"
+        />
+
+    <TextView
+        android:id="@+id/tvTel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/field_size"
+        android:layout_alignBottom="@id/tvTel"
+        android:layout_toRightOf="@id/tvTel"
+        android:layout_toEndOf="@id/tvTel"
+        />
+
+    <TextView
+        android:id="@+id/tvEm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/field_Email_hint"
+        android:textSize="@dimen/field_size"
+        android:textStyle="bold"
+        android:layout_below="@id/tvTel"
+        />
+
+    <TextView
+        android:id="@+id/tvEm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/field_size"
+        android:layout_alignBottom="@id/tvEm"
+        android:layout_toRightOf="@id/tvEm"
+        android:layout_toEndOf="@id/tvEm"
+        />
+
+    <TextView
+        android:id="@+id/tvDC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/field_Description_hint"
+        android:textSize="@dimen/field_size"
+        android:textStyle="bold"
+        android:layout_below="@id/tvEm"
+        />
+
+    <TextView
+        android:id="@+id/tvDC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/field_size"
+        android:layout_below="@id/tvDC"
+        />
+
+    <Button
+        android:id="@+id/btn_DCdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_DC"
+        android:layout_below="@id/tvDC"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/et_margin_top"
+        android:layout_marginLeft="@dimen/et_margin_top"
+        android:layout_marginRight="@dimen/et_margin_top"
+        android:paddingLeft="@dimen/et_margin_button"
+        android:paddingRight="@dimen/et_margin_button"
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/colorIconsText"
+        android:onClick="editData"
+        />
+
+</RelativeLayout>
